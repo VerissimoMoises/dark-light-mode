@@ -14,3 +14,7 @@ mode.addEventListener('click', () => {
     mode.classList.remove('fa-sun');
     form.classList.remove('dark')
 });
+
+button.addEventListener('click', (event) => {
+    event.preventDefault();
+})
